@@ -1,14 +1,91 @@
+/* AVESQ 2026 — Custom styles */
+
+/* Accent underline */
+.underline-teal {
+    width: 64px;
+    height: 3px;
+    background-color: #0D9488; /* teal-600 */
+}
+
+/* Legacy alias kept for backward compat */
 .underline-yellow {
     width: 64px;
-    height: 2px;
-    background-color: #FFB119;
+    height: 3px;
+    background-color: #0D9488;
 }
 
 .text-link {
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 700;
     line-height: 150%;
     text-decoration-line: underline;
-    color: #3A7BDC;
+    color: #0D9488;
+}
+
+/* AVESQ brand colours */
+:root {
+    --color-primary: #0D9488;   /* teal-600 */
+    --color-accent:  #DB2777;   /* pink-600 */
+    --color-warm:    #92400E;   /* amber-800 / brown */
+    --color-hero-bg: #134E4A;   /* teal-900 */
+}
+
+/* Hero title box */
+.avesq-title-box {
+    background-color: var(--color-hero-bg);
+}
+
+/* Status badge */
+.badge-open {
+    display: inline-block;
+    background-color: #D1FAE5;
+    color: #065F46;
+    font-weight: 700;
+    font-size: 0.75rem;
+    padding: 2px 10px;
+    border-radius: 9999px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.badge-closed {
+    display: inline-block;
+    background-color: #FEE2E2;
+    color: #991B1B;
+    font-weight: 700;
+    font-size: 0.75rem;
+    padding: 2px 10px;
+    border-radius: 9999px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+/* Date card highlight */
+.date-card-next {
+    border-left: 4px solid #DB2777;
+    background-color: #FDF2F8;
+}
+
+/* Theme pill */
+.theme-pill {
+    border: 1px solid #0D9488;
+    color: #0D9488;
+    border-radius: 6px;
+    padding: 8px 14px;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+/* Sponsor placeholder box */
+.sponsor-box {
+    border: 2px dashed #CBD5E1;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+    color: #94A3B8;
+    font-size: 0.875rem;
+    font-weight: 600;
 }
