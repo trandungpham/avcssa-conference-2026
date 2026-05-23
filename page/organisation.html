@@ -30,37 +30,7 @@
                 <span style="color:#6EE7B7">2026</span><br /><span class="text-gray-100">AVCSSA</span>
             </a>
             <div class="w-full flex flex-col items-end">
-                <nav class="h-[4em] hidden lg:flex items-center justify-end w-full text-gray-900">
-                    <ul class="flex justify-center h-full items-center flex-wrap">
-                        <li class="text-sm font-bold uppercase tracking-wider hover:text-teal-600 duration-100"><a class="pl-1 pr-1 lg:pl-2 lg:pr-2 py-2" href="/">Home</a></li>
-                        <li class="text-sm font-bold uppercase tracking-wider hover:text-teal-600 duration-100 ml-1"><a class="pl-1 pr-1 lg:pl-2 lg:pr-2 py-2" href="/page/important-dates.html">Important Dates</a></li>
-                        <li class="text-sm font-bold uppercase tracking-wider hover:text-teal-600 duration-100 ml-1"><a class="pl-1 pr-1 lg:pl-2 lg:pr-2 py-2" href="/page/registration.html">Registration</a></li>
-                        <li class="text-sm font-bold uppercase tracking-wider hover:text-teal-600 duration-100 ml-1"><a class="pl-1 pr-1 lg:pl-2 lg:pr-2 py-2" href="/page/submission.html">Submission</a></li>
-                        <li class="text-sm font-bold uppercase tracking-wider hover:text-teal-600 duration-100 ml-1"><a class="pl-1 pr-1 lg:pl-2 lg:pr-2 py-2" href="/page/program.html">Program</a></li>
-                        <li class="text-sm font-bold uppercase tracking-wider hover:text-teal-600 duration-100 ml-1"><a class="pl-1 pr-1 lg:pl-2 lg:pr-2 py-2" href="/page/venue.html">Local Info</a></li>
-                        <li class="text-sm font-bold uppercase tracking-wider duration-100 ml-1" style="color:#0D9488"><a class="pl-1 pr-1 lg:pl-2 lg:pr-2 py-2 border-b-2" style="border-color:#0D9488" href="/page/organisation.html">Committee</a></li>
-                        <li class="text-sm font-bold uppercase tracking-wider hover:text-teal-600 duration-100 ml-1"><a class="pl-1 pr-1 lg:pl-2 lg:pr-2 py-2" href="/page/sponsors.html">Sponsors</a></li>
-                    </ul>
-                </nav>
-                <nav class="h-[4em] flex lg:hidden" style="z-index:9999">
-                    <button data-collapse-toggle="mobile-menu" aria-controls="mobile-menu" aria-expanded="false">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 m-auto cursor-pointer" style="color:#6EE7B7">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                        </svg>
-                    </button>
-                    <div class="hidden absolute top-14 left-0 z-10 w-full pb-4" style="background:#134E4A" id="mobile-menu">
-                        <ul class="py-5">
-                            <li class="text-sm w-full font-bold uppercase tracking-wider text-gray-100"><a class="py-2 block px-6 w-full" href="/">Home</a></li>
-                            <li class="text-sm w-full font-bold uppercase tracking-wider text-gray-100"><a class="py-2 block px-6 w-full" href="/page/important-dates.html">Important Dates</a></li>
-                            <li class="text-sm w-full font-bold uppercase tracking-wider text-gray-100"><a class="py-2 block px-6 w-full" href="/page/registration.html">Registration</a></li>
-                            <li class="text-sm w-full font-bold uppercase tracking-wider text-gray-100"><a class="py-2 block px-6 w-full" href="/page/submission.html">Submission</a></li>
-                            <li class="text-sm w-full font-bold uppercase tracking-wider text-gray-100"><a class="py-2 block px-6 w-full" href="/page/program.html">Program</a></li>
-                            <li class="text-sm w-full font-bold uppercase tracking-wider text-gray-100"><a class="py-2 block px-6 w-full" href="/page/venue.html">Local Info</a></li>
-                            <li class="text-sm w-full font-bold uppercase tracking-wider text-gray-100"><a class="py-2 block px-6 w-full" href="/page/organisation.html">Committee</a></li>
-                            <li class="text-sm w-full font-bold uppercase tracking-wider text-gray-100"><a class="py-2 block px-6 w-full" href="/page/sponsors.html">Sponsors</a></li>
-                        </ul>
-                    </div>
-                </nav>
+                <div id="site-nav"></div>
                 <div class="relative mt-8 mr-2.5 text-right text-white">
                     <h2 class="font-bold text-xl tracking-wide" style="color:#6EE7B7">Organising Committee</h2>
                     <p class="text-sm opacity-80">AVCSSA 2026</p>
@@ -294,6 +264,7 @@
 </footer>
 </div>
 
+<script src="/components/nav.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
 </body>
 </html>

@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Conference Themes | AVCSSA 2026</title>
+    <meta name="description" content="Explore the five conference themes of AVCSSA 2026 — sustainable agriculture, smart farming, genomics, policy, and agri-economics." />
+    <meta property="og:title" content="Conference Themes | AVCSSA 2026" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="AVCSSA 2026" />
+    <meta name="robots" content="follow, index" />
+    <link rel="icon" href="/favicon.ico" />
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
+    <link rel="preload" href="/fonts/inter-latin-variable-wghtOnly-normal.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/_next/static/css/7181c6999132e779.css" />
+    <link rel="stylesheet" href="/_next/static/css/index.css" />
+    <style>
+        .theme-tab-btn {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.25rem;
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            border-bottom: 3px solid transparent;
+            color: #6B7280;
+            background: none;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            cursor: pointer;
+            white-space: nowrap;
+            transition: color 0.15s, border-color 0.15s;
+        }
+        .theme-tab-btn:hover {
+            color: #0D9488;
+        }
+        .theme-tab-btn.active {
+            color: #0D9488;
+            border-bottom-color: #0D9488;
+        }
+        .theme-panel {
+            display: none;
+        }
+        .theme-panel.active {
+            display: block;
+        }
+        .topic-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.6rem;
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #F3F4F6;
+            font-size: 0.9rem;
+            color: #374151;
+            line-height: 1.5;
+        }
+        .topic-item:last-child {
+            border-bottom: none;
+        }
+        .topic-dot {
+            flex-shrink: 0;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            margin-top: 0.45rem;
+        }
+    </style>
+</head>
+
+<body class="bg-white">
+<div class="min-h-screen flex flex-col">
+<main class="bg-white">
+
+    <div class="h-[220px] w-full absolute top-[4em]" style="background:linear-gradient(135deg,#134E4A 0%,#0D9488 100%)"></div>
+
+    <div class="relative max-w-[70em] mx-auto pr-3.5">
+        <div class="flex items-start">
+            <a href="/" class="text-3xl font-bold font-sans inline-block p-5 z-10 avesq-title-box text-gray-100 no-underline" style="line-height:1.3">
+                <span style="color:#6EE7B7">2026</span><br /><span class="text-gray-100">AVCSSA</span>
+            </a>
+            <div class="w-full flex flex-col items-end">
+                <!-- Desktop nav -->
+                <div id="site-nav"></div>
+                <div class="relative mt-8 mr-2.5 text-right text-white">
+                    <h2 class="font-bold text-xl tracking-wide" style="color:#6EE7B7">Conference Themes</h2>
+                    <p class="text-sm opacity-80">AVCSSA 2026</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="relative mt-[14em]">
+        <div class="max-w-[70em] mx-auto py-12 px-5 md:px-10">
+
+            <h2 class="uppercase text-4xl font-bold tracking-wide mb-3" style="color:#0D9488">Conference Themes</h2>
+            <div class="underline-teal"></div>
+            <p class="mt-5 text-gray-600 leading-relaxed max-w-3xl">
+                AVCSSA 2026 invites submissions across five interconnected themes that reflect the breadth of smart and sustainable agriculture. Select a theme below to explore its scope and topics of interest.
+            </p>
+
+            <!-- Tab navigation -->
+            <div class="mt-8 border-b border-gray-200 overflow-x-auto">
+                <div class="flex min-w-max" id="theme-tabs" role="tablist">
+                    <button class="theme-tab-btn active" data-target="panel-1" role="tab" aria-selected="true">
+                        <span>🌱</span> Sustainable Systems
+                    </button>
+                    <button class="theme-tab-btn" data-target="panel-2" role="tab" aria-selected="false">
+                        <span>🤖</span> Smart Agriculture
+                    </button>
+                    <button class="theme-tab-btn" data-target="panel-3" role="tab" aria-selected="false">
+                        <span>🧬</span> Breeding &amp; Genomics
+                    </button>
+                    <button class="theme-tab-btn" data-target="panel-4" role="tab" aria-selected="false">
+                        <span>🏛️</span> Policy &amp; Governance
+                    </button>
+                    <button class="theme-tab-btn" data-target="panel-5" role="tab" aria-selected="false">
+                        <span>📈</span> Agri-Economics
+                    </button>
+                </div>
+            </div>
+
+            <!-- Tab panels -->
+            <div class="mt-8">
+
+                <!-- Panel 1: Sustainable Systems -->
+                <div class="theme-panel active" id="panel-1" role="tabpanel">
+                    <div class="md:grid grid-cols-5 gap-8">
+                        <div class="col-span-2 mb-6 md:mb-0">
+                            <div class="flex items-center gap-3 mb-4">
+                                <span class="text-4xl">🌱</span>
+                                <h3 class="text-2xl font-bold leading-tight" style="color:#134E4A">Sustainable and Resilient Agricultural Systems</h3>
+                            </div>
+                            <p class="text-gray-700 leading-relaxed text-sm">
+                                This theme focuses on developing farming practices that can maintain productivity, adapt to environmental stresses, and reduce negative impacts on ecosystems and natural resources.
+                            </p>
+                            <p class="mt-4 text-gray-700 leading-relaxed text-sm">
+                                Contributions are welcome from researchers and practitioners working on agroecological innovation, soil-plant-microbe systems, biodiversity conservation, and climate-adaptive farming at any scale.
+                            </p>
+                            <div class="mt-6">
+                                <a href="/page/submission.html" class="inline-block px-5 py-2.5 rounded font-bold text-white text-sm" style="background:#0D9488">Submit to This Theme</a>
+                            </div>
+                        </div>
+                        <div class="col-span-3">
+                            <h4 class="font-bold text-sm uppercase tracking-wider mb-3" style="color:#0D9488">Topics of Interest</h4>
+                            <div class="bg-gray-50 rounded-xl p-5 border" style="border-color:#D1FAE5">
+                                <div class="topic-item"><span class="topic-dot" style="background:#0D9488"></span>Biodiversity and Ecosystem Services in Agricultural Landscapes</div>
+                                <div class="topic-item"><span class="topic-dot" style="background:#0D9488"></span>Food System Resilience and Sustainable Supply Chains</div>
+                                <div class="topic-item"><span class="topic-dot" style="background:#0D9488"></span>Climate Change Mitigation in Agriculture</div>
+                                <div class="topic-item"><span class="topic-dot" style="background:#0D9488"></span>Sustainable Plant Disease and Pest Management</div>
+                                <div class="topic-item"><span class="topic-dot" style="background:#0D9488"></span>Soil Health Restoration and Regenerative Agriculture</div>
+                                <div class="topic-item"><span class="topic-dot" style="background:#0D9488"></span>Microbiome and Soil–Plant–Microbe Interactions</div>
+                                <div class="topic-item"><span class="topic-dot" style="background:#0D9488"></span>Agroecological Approaches to Farming System Resilience</div>
+                                <div class="topic-item"><span class="topic-dot" style="background:#0D9488"></span>Water Use Efficiency and Irrigation Innovation</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Panel 2: Smart Agriculture -->
+                <div class="theme-panel" id="panel-2" role="tabpanel">
+                    <div class="md:grid grid-cols-5 gap-8">
+                        <div class="col-span-2 mb-6 md:mb-0">
+                            <div class="flex items-center gap-3 mb-4">
+                                <span class="text-4xl">🤖</span>
+                                <h3 class="text-2xl font-bold leading-tight" style="color:#134E4A">Smart and Precision Agriculture</h3>
+                            </div>
+                            <p class="text-gray-700 leading-relaxed text-sm">
+                                This theme focuses on digital technologies, intelligent systems, automation, and data-driven approaches for next-generation agriculture, with emphasis on sensing, monitoring, control, AI-enabled platforms, robotics, and precision farming technologies.
+                            </p>
+                            <p class="mt-4 text-gray-700 leading-relaxed text-sm">
+                                We welcome work spanning embedded systems and edge computing to large-scale farm management platforms, from autonomous machinery to real-time crop monitoring.
+                            </p>
+                            <div class="mt-6">
+                                <a href="/page/submission.html" class="inline-block px-5 py-2.5 rounded font-bold text-white text-sm" style="background:#0D9488">Submit to This Theme</a>
+                            </div>
+                        </div>
+                        <div class="col-span-3">
+                            <h4 class="font-bold text-sm uppercase tracking-wider mb-3" style="color:#0D9488">Topics of Interest</h4>
+                            <div class="bg-gray-50 rounded-xl p-5 border" style="border-color:#DBEAFE">
+                                <div class="topic-item"><span class="topic-dot" style="background:#1D4ED8"></span>Precision farming and site-specific management technologies</div>
+                                <div class="topic-item"><span class="topic-dot" style="background:#1D4ED8"></span>IoT, wireless sensor networks, and edge computing for agriculture</div>
+                                <div class="topic-item"><span class="topic-dot" style="background:#1D4ED8"></span>AI, machine learning, and computer vision applications in farming</div>
+                                <div class="topic-item"><span class="topic-dot" style="background:#1D4ED8"></span>UAVs, drones, and remote sensing technologies</div>
+                                <div class="topic-item"><span class="topic-dot" style="background:#1D4ED8"></span>Digital twins, simulation, and predictive analytics for agriculture</div>
+                                <div class="topic-item"><span class="topic-dot" style="background:#1D4ED8"></span>Intelligent irrigation and fertigation control systems</div>
+                                <div class="topic-item"><span class="topic-dot" style="background:#1D4ED8"></span>Real-time monitoring platforms for crops, soil, livestock, and environment</div>
+                                <div class="topic-item"><span class="topic-dot" style="background:#1D4ED8"></span>Agricultural data integration, analytics, and decision-support systems</div>
+                                <div class="topic-item"><span class="topic-dot" style="background:#1D4ED8"></span>Embedded systems and cyber-physical systems in agriculture</div>
+                                <div class="topic-item"><span class="topic-dot" style="background:#1D4ED8"></span>Automation technologies for harvesting, spraying, and farm operations</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Panel 3: Breeding & Genomics -->
+                <div class="theme-panel" id="panel-3" role="tabpanel">
+                    <div class="md:grid grid-cols-5 gap-8">
+                        <div class="col-span-2 mb-6 md:mb-0">
+                            <div class="flex items-center gap-3 mb-4">
+                                <span class="text-4xl">🧬</span>
+                                <h3 class="text-2xl font-bold leading-tight" style="color:#134E4A">Advanced Breeding, Genomics, and Multi-Omics</h3>
+                            </div>
+                            <p class="text-gray-700 leading-relaxed text-sm">
+                                This theme focuses on applying modern breeding approaches, genomic technologies, and multi-omics tools to accelerate genetic improvement, enhance productivity, and support climate-resilient and sustainable agriculture.
+                            </p>
+                            <p class="mt-4 text-gray-700 leading-relaxed text-sm">
+                                Contributions spanning crops, livestock, and aquaculture are encouraged, including computational and bioinformatics approaches alongside experimental work.
+                            </p>
+                            <div class="mt-6">
+                                <a href="/page/submission.html" class="inline-block px-5 py-2.5 rounded font-bold text-white text-sm" style="background:#0D9488">Submit to This Theme</a>
+                            </div>
+                        </div>
+                        <div class="col-span-3">
+                            <h4 class="font-bold text-sm uppercase tracking-wider mb-3" style="color:#0D9488">Topics of Interest</h4>
+                            <div class="bg-gray-50 rounded-xl p-5 border" style="border-color:#EDE9FE">
+                                <div class="topic-item"><span class="topic-dot" style="background:#7C3AED"></span>Genomic Selection and Precision Breeding in Crops, Livestock, and Aquaculture</div>
+                                <div class="topic-item"><span class="topic-dot" style="background:#7C3AED"></span>Genome Assembly, Pangenomics, and Population Genomics</div>
+                                <div class="topic-item"><span class="topic-dot" style="background:#7C3AED"></span>Gene Editing and Functional Genomics for Trait Improvement</div>
+                                <div class="topic-item"><span class="topic-dot" style="background:#7C3AED"></span>Multi-Omics Integration: Genomics, Transcriptomics, Proteomics, Metabolomics, Epigenomics, and Microbiomics</div>
+                                <div class="topic-item"><span class="topic-dot" style="background:#7C3AED"></span>Breeding for Climate Resilience, Disease Resistance, Productivity, and Quality Traits</div>
+                                <div class="topic-item"><span class="topic-dot" style="background:#7C3AED"></span>Conservation and Utilisation of Genetic Resources and Biodiversity</div>
+                                <div class="topic-item"><span class="topic-dot" style="background:#7C3AED"></span>High-Throughput Phenotyping and Digital Tools for Breeding</div>
+                                <div class="topic-item"><span class="topic-dot" style="background:#7C3AED"></span>Bioinformatics, AI, and Data-Driven Approaches in Genomic Research and Breeding</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Panel 4: Policy & Governance -->
+                <div class="theme-panel" id="panel-4" role="tabpanel">
+                    <div class="md:grid grid-cols-5 gap-8">
+                        <div class="col-span-2 mb-6 md:mb-0">
+                            <div class="flex items-center gap-3 mb-4">
+                                <span class="text-4xl">🏛️</span>
+                                <h3 class="text-2xl font-bold leading-tight" style="color:#134E4A">Policy, Governance, and Social Inclusion in Agriculture</h3>
+                            </div>
+                            <p class="text-gray-700 leading-relaxed text-sm">
+                                This theme focuses on the role of policy, governance, and inclusive development in enabling sustainable, resilient, and equitable agricultural transformation.
+                            </p>
+                            <p class="mt-4 text-gray-700 leading-relaxed text-sm">
+                                It explores how institutions, regulatory frameworks, participatory approaches, and innovation systems can strengthen food security, climate resilience, rural livelihoods, and fair access to resources, technology, markets, and decision-making across agri-food systems.
+                            </p>
+                            <div class="mt-6">
+                                <a href="/page/submission.html" class="inline-block px-5 py-2.5 rounded font-bold text-white text-sm" style="background:#0D9488">Submit to This Theme</a>
+                            </div>
+                        </div>
+                        <div class="col-span-3">
+                            <h4 class="font-bold text-sm uppercase tracking-wider mb-3" style="color:#0D9488">Topics of Interest</h4>
+                            <div class="bg-gray-50 rounded-xl p-5 border" style="border-color:#FEF3C7">
+                                <div class="topic-item"><span class="topic-dot" style="background:#92400E"></span>Agricultural policy reform, food security strategies, rural transformation, and agricultural financing</div>
+                                <div class="topic-item"><span class="topic-dot" style="background:#92400E"></span>Governance systems, institutional effectiveness, decentralisation, and participatory decision-making in agriculture and rural development</div>
+                                <div class="topic-item"><span class="topic-dot" style="background:#92400E"></span>Land, water, and natural resource governance, including tenure security and biodiversity conservation</div>
+                                <div class="topic-item"><span class="topic-dot" style="background:#92400E"></span>Cooperatives, farmer organisations, multi-stakeholder partnerships, and community-based agricultural governance</div>
+                                <div class="topic-item"><span class="topic-dot" style="background:#92400E"></span>Gender equality, youth participation, Indigenous knowledge, and social inclusion in agricultural development</div>
+                                <div class="topic-item"><span class="topic-dot" style="background:#92400E"></span>Equity in access to land, finance, technology, extension services, markets, and digital infrastructure</div>
+                                <div class="topic-item"><span class="topic-dot" style="background:#92400E"></span>Social protection, labour dynamics, migration, and support for vulnerable rural communities</div>
+                                <div class="topic-item"><span class="topic-dot" style="background:#92400E"></span>Climate-smart agriculture, agroecology, disaster risk management, and food systems resilience</div>
+                                <div class="topic-item"><span class="topic-dot" style="background:#92400E"></span>Digital governance, agricultural innovation systems, ICT access, data governance, and smart farming policy</div>
+                                <div class="topic-item"><span class="topic-dot" style="background:#92400E"></span>Agricultural productivity, value chains, trade, and inclusive rural economic development</div>
+                                <div class="topic-item"><span class="topic-dot" style="background:#92400E"></span>Ethical, legal, and emerging issues in agriculture, including governance during crises, climate shocks, and pandemics</div>
+                                <div class="topic-item"><span class="topic-dot" style="background:#92400E"></span>Sustainable Development Goals (SDGs), global food systems governance, and international agricultural policy cooperation</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Panel 5: Agri-Economics -->
+                <div class="theme-panel" id="panel-5" role="tabpanel">
+                    <div class="md:grid grid-cols-5 gap-8">
+                        <div class="col-span-2 mb-6 md:mb-0">
+                            <div class="flex items-center gap-3 mb-4">
+                                <span class="text-4xl">📈</span>
+                                <h3 class="text-2xl font-bold leading-tight" style="color:#134E4A">Productivity, Agri-Economics, and Value Chains</h3>
+                            </div>
+                            <p class="text-gray-700 leading-relaxed text-sm">
+                                This theme focuses on the economic, productivity, and value chain dimensions of agricultural transformation in the context of sustainability, climate change, digitalisation, and global market integration.
+                            </p>
+                            <p class="mt-4 text-gray-700 leading-relaxed text-sm">
+                                The theme explores how innovation, technology adoption, policy, finance, and market systems can improve agricultural productivity, resilience, competitiveness, and inclusive growth across agri-food systems.
+                            </p>
+                            <div class="mt-6">
+                                <a href="/page/submission.html" class="inline-block px-5 py-2.5 rounded font-bold text-white text-sm" style="background:#0D9488">Submit to This Theme</a>
+                            </div>
+                        </div>
+                        <div class="col-span-3">
+                            <h4 class="font-bold text-sm uppercase tracking-wider mb-3" style="color:#0D9488">Topics of Interest</h4>
+                            <div class="bg-gray-50 rounded-xl p-5 border" style="border-color:#FCE7F3">
+                                <div class="topic-item"><span class="topic-dot" style="background:#DB2777"></span>Agricultural productivity, efficiency, and performance analysis</div>
+                                <div class="topic-item"><span class="topic-dot" style="background:#DB2777"></span>Labour productivity, workforce transformation, and mechanisation in agriculture</div>
+                                <div class="topic-item"><span class="topic-dot" style="background:#DB2777"></span>Economics of digital agriculture, AI, and technology adoption</div>
+                                <div class="topic-item"><span class="topic-dot" style="background:#DB2777"></span>Agricultural finance, insurance, investment, and risk management</div>
+                                <div class="topic-item"><span class="topic-dot" style="background:#DB2777"></span>Agricultural trade, export competitiveness, and global market integration</div>
+                                <div class="topic-item"><span class="topic-dot" style="background:#DB2777"></span>Consumer behaviour, food standards, traceability, and certification systems</div>
+                                <div class="topic-item"><span class="topic-dot" style="background:#DB2777"></span>Agri-food value chains, logistics, and supply chain resilience</div>
+                                <div class="topic-item"><span class="topic-dot" style="background:#DB2777"></span>Agribusiness development, entrepreneurship, and innovation ecosystems</div>
+                                <div class="topic-item"><span class="topic-dot" style="background:#DB2777"></span>Food security, food systems transformation, and nutrition economics</div>
+                                <div class="topic-item"><span class="topic-dot" style="background:#DB2777"></span>Climate risk, adaptation, and resilience economics in agri-food systems</div>
+                                <div class="topic-item"><span class="topic-dot" style="background:#DB2777"></span>Green growth, ESG, circular economy, and low-emission agricultural value chains</div>
+                                <div class="topic-item"><span class="topic-dot" style="background:#DB2777"></span>Economic modelling, policy analysis, and data-driven decision-making in agriculture and food systems</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- end tab panels -->
+
+            <!-- Call to action -->
+            <div class="mt-12 rounded-xl p-6 text-center" style="background:linear-gradient(135deg,#134E4A,#0D9488)">
+                <h3 class="text-xl font-bold text-white mb-2">Ready to contribute?</h3>
+                <p class="text-sm text-white opacity-80 mb-5">Submit your abstract by <strong>1 June 2026</strong>. Oral and poster presentations welcome across all five themes.</p>
+                <div class="flex flex-wrap justify-center gap-3">
+                    <a href="/page/submission.html" class="inline-block px-6 py-3 rounded font-bold text-sm" style="background:#6EE7B7;color:#134E4A">Submit Abstract</a>
+                    <a href="/page/important-dates.html" class="inline-block px-6 py-3 rounded font-bold text-sm border-2 text-white" style="border-color:#6EE7B7">View Key Dates</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</main>
+
+<footer class="border-t-2 w-full py-4 mt-auto" style="border-color:#0D9488">
+    <div class="mx-auto max-w-[70em] px-5">
+        <div class="flex flex-col md:flex-row justify-between items-center text-sm text-gray-600 gap-2">
+            <p>&copy; 2026 Australia-Vietnam Conference on Smart and Sustainable Agriculture (AVCSSA). All Rights Reserved.</p>
+            <p>Contact: <a href="mailto:avesq2024@gmail.com" class="text-link">avesq2024@gmail.com</a></p>
+        </div>
+    </div>
+</footer>
+</div>
+
+<script src="/components/nav.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+<script>
+(function () {
+    var tabs = document.querySelectorAll('.theme-tab-btn');
+    var panels = document.querySelectorAll('.theme-panel');
+
+    tabs.forEach(function (tab) {
+        tab.addEventListener('click', function () {
+            var target = tab.getAttribute('data-target');
+
+            tabs.forEach(function (t) {
+                t.classList.remove('active');
+                t.setAttribute('aria-selected', 'false');
+            });
+            panels.forEach(function (p) {
+                p.classList.remove('active');
+            });
+
+            tab.classList.add('active');
+            tab.setAttribute('aria-selected', 'true');
+            document.getElementById(target).classList.add('active');
+        });
+    });
+})();
+</script>
+</body>
+</html>
