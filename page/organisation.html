@@ -85,87 +85,212 @@
 
                     <!-- Track -->
                     <div class="overflow-hidden mx-10" id="cm-viewport">
-                        <div id="cm-track" class="flex" style="transition:transform 0.45s ease">
+                        <div id="cm-track" style="display:grid;grid-auto-flow:column;grid-template-rows:repeat(2,auto);row-gap:16px;transition:transform 0.45s ease">
 
-                            <!-- Card template: duplicate and fill in real members -->
-                            <div class="flex-shrink-0 flex flex-col items-center text-center rounded-xl p-6 bg-white shadow" style="border:2px solid #E5E7EB;height:220px">
-                                <div class="rounded-full flex items-center justify-center mb-3 flex-shrink-0" style="width:100px;height:100px;background:#CCFBF1">
+                            <!-- Committee members — generated from the official roster -->
+
+                            <!-- General Chair -->
+                            <div class="flex-shrink-0 flex flex-col items-center text-center rounded-xl p-5 bg-white shadow" style="border:2px solid #E5E7EB;height:250px">
+                                <div class="rounded-full flex items-center justify-center mb-3 flex-shrink-0 overflow-hidden" style="width:88px;height:88px;background:#CCFBF1">
                                     <img src="../images/committee/dzung-dao.jpg" alt="Dzung Dao" class="w-full h-full object-cover rounded-full" />
                                 </div>
-                                <p class="font-bold text-sm text-gray-800">Dzung Dao</p>
-                                <p class="text-xs font-semibold mt-1" style="color:#0D9488">Professor</p>
+                                <p class="font-bold text-sm text-gray-800 leading-tight">Prof Dzung Dao</p>
+                                <p class="text-xs font-semibold mt-1" style="color:#0D9488">General Chair</p>
+                                <p class="text-[11px] text-gray-500 mt-1 leading-tight">Griffith University</p>
                             </div>
 
-                            <div class="flex-shrink-0 flex flex-col items-center text-center rounded-xl p-6 bg-white shadow" style="border:2px solid #E5E7EB;height:220px">
-                                <div class="rounded-full flex items-center justify-center mb-3 flex-shrink-0" style="width:100px;height:100px;background:#CCFBF1">
-                                    <img src="../images/committee/anh-nguyen.jpeg" alt="Anh Nguyen" class="w-full h-full object-cover rounded-full" />
-                                </div>
-                                <p class="font-bold text-sm text-gray-800">Anh Nguyen</p>
-                                <p class="text-xs font-semibold mt-1" style="color:#0D9488">Professor</p>
-                            </div>
-
-                            <div class="flex-shrink-0 flex flex-col items-center text-center rounded-xl p-6 bg-white shadow" style="border:2px solid #E5E7EB;height:220px">
-                                <div class="rounded-full flex items-center justify-center mb-3 flex-shrink-0" style="width:100px;height:100px;background:#CCFBF1">
+                            <!-- Program Chair -->
+                            <div class="flex-shrink-0 flex flex-col items-center text-center rounded-xl p-5 bg-white shadow" style="border:2px solid #E5E7EB;height:250px">
+                                <div class="rounded-full flex items-center justify-center mb-3 flex-shrink-0 overflow-hidden" style="width:88px;height:88px;background:#CCFBF1">
                                     <img src="../images/committee/loan-nguyen.jpeg" alt="Loan Nguyen" class="w-full h-full object-cover rounded-full" />
                                 </div>
-                                <p class="font-bold text-sm text-gray-800">Loan Nguyen</p>
-                                <p class="text-xs font-semibold mt-1" style="color:#0D9488">Doctor</p>
+                                <p class="font-bold text-sm text-gray-800 leading-tight">Dr Loan Nguyen</p>
+                                <p class="text-xs font-semibold mt-1" style="color:#0D9488">Program Chair &amp; Theme Leader</p>
+                                <p class="text-[11px] text-gray-500 mt-1 leading-tight">University of Queensland</p>
                             </div>
 
-                            <div class="flex-shrink-0 flex flex-col items-center text-center rounded-xl p-6 bg-white shadow" style="border:2px solid #E5E7EB;height:220px">
-                                <div class="rounded-full flex items-center justify-center mb-3 flex-shrink-0" style="width:100px;height:100px;background:#CCFBF1">
-                                    <img src="../images/committee/hang-thu-ta.jpg" alt="Hang Thu Ta" class="w-full h-full object-cover rounded-full" />
+                            <!-- Local Chair -->
+                            <div class="flex-shrink-0 flex flex-col items-center text-center rounded-xl p-5 bg-white shadow" style="border:2px solid #E5E7EB;height:250px">
+                                <div class="rounded-full flex items-center justify-center mb-3 flex-shrink-0 overflow-hidden" style="width:88px;height:88px;background:#CCFBF1">
+                                    <img src="../images/committee/pham-thu-hien.jpg" alt="Hien Pham" class="w-full h-full object-cover rounded-full" />
                                 </div>
-                                <p class="font-bold text-sm text-gray-800">Hang Thu Ta</p>
-                                <p class="text-xs font-semibold mt-1" style="color:#0D9488">Professor</p>
+                                <p class="font-bold text-sm text-gray-800 leading-tight">Dr Hien Pham</p>
+                                <p class="text-xs font-semibold mt-1" style="color:#0D9488">Local Chair &amp; Theme Leader</p>
+                                <p class="text-[11px] text-gray-500 mt-1 leading-tight">CSIRO</p>
                             </div>
 
-                            <div class="flex-shrink-0 flex flex-col items-center text-center rounded-xl p-6 bg-white shadow" style="border:2px solid #E5E7EB;height:220px">
-                                <div class="rounded-full flex items-center justify-center mb-3 flex-shrink-0" style="width:100px;height:100px;background:#CCFBF1">
-                                    <img src="../images/committee/vinh-dao.jpeg" alt="Vinh Dao" class="w-full h-full object-cover rounded-full" />
+                            <!-- Scientific Theme Leaders -->
+                            <div class="flex-shrink-0 flex flex-col items-center text-center rounded-xl p-5 bg-white shadow" style="border:2px solid #E5E7EB;height:250px">
+                                <div class="rounded-full flex items-center justify-center mb-3 flex-shrink-0" style="width:88px;height:88px;background:#CCFBF1">
+                                    <img src="../images/committee/van-dau.png" alt="Trong Tran" class="w-full h-full object-cover rounded-full" />
                                 </div>
-                                <p class="font-bold text-sm text-gray-800">Vinh Dao</p>
-                                <p class="text-xs font-semibold mt-1" style="color:#0D9488">Associate Professor</p>
+                                <p class="font-bold text-sm text-gray-800 leading-tight">Prof Van Dau</p>
+                                <p class="text-xs font-semibold mt-1" style="color:#0D9488">Scientific Theme Leader</p>
+                                <p class="text-[11px] text-gray-500 mt-1 leading-tight">Griffith University</p>
                             </div>
 
-                            <div class="flex-shrink-0 flex flex-col items-center text-center rounded-xl p-6 bg-white shadow" style="border:2px solid #E5E7EB;height:220px">
-                                <div class="rounded-full flex items-center justify-center mb-3 flex-shrink-0" style="width:100px;height:100px;background:#CCFBF1">
-                                    <img src="../images/committee/pham-thu-hien.jpg" alt="Pham Thu Hien" class="w-full h-full object-cover rounded-full" />
+                            <div class="flex-shrink-0 flex flex-col items-center text-center rounded-xl p-5 bg-white shadow" style="border:2px solid #E5E7EB;height:250px">
+                                <div class="rounded-full flex items-center justify-center mb-3 flex-shrink-0" style="width:88px;height:88px;background:#CCFBF1">
+                                    <img src="../images/committee/long-chu.webp" alt="Trong Tran" class="w-full h-full object-cover rounded-full" />
                                 </div>
-                                <p class="font-bold text-sm text-gray-800">Pham Thu Hien</p>
-                                <p class="text-xs font-semibold mt-1" style="color:#0D9488">Doctor</p>
+                                <p class="font-bold text-sm text-gray-800 leading-tight">Prof Long Chu</p>
+                                <p class="text-xs font-semibold mt-1" style="color:#0D9488">Scientific Theme Leader</p>
+                                <p class="text-[11px] text-gray-500 mt-1 leading-tight">ANU</p>
                             </div>
 
-                            <div class="flex-shrink-0 flex flex-col items-center text-center rounded-xl p-6 bg-white shadow" style="border:2px solid #E5E7EB;height:220px">
-                                <div class="rounded-full flex items-center justify-center mb-3 flex-shrink-0" style="width:100px;height:100px;background:#CCFBF1">
-                                    <img src="../images/committee/vincent-hoang.jpg" alt="Vincent Hoang" class="w-full h-full object-cover rounded-full" />
-                                </div>
-                                <p class="font-bold text-sm text-gray-800">Vincent Hoang</p>
-                                <p class="text-xs font-semibold mt-1" style="color:#0D9488">Associate Professor</p>
-                            </div>
-
-                            <div class="flex-shrink-0 flex flex-col items-center text-center rounded-xl p-6 bg-white shadow" style="border:2px solid #E5E7EB;height:220px">
-                                <div class="rounded-full flex items-center justify-center mb-3 flex-shrink-0" style="width:100px;height:100px;background:#CCFBF1">
-                                    <img src="../images/committee/henry-nguyen.jpg" alt="Henry Nguyen" class="w-full h-full object-cover rounded-full" />
-                                </div>
-                                <p class="font-bold text-sm text-gray-800">Henry Nguyen</p>
-                                <p class="text-xs font-semibold mt-1" style="color:#0D9488">Associate Professor</p>
-                            </div>
-
-                            <div class="flex-shrink-0 flex flex-col items-center text-center rounded-xl p-6 bg-white shadow" style="border:2px solid #E5E7EB;height:220px">
-                                <div class="rounded-full flex items-center justify-center mb-3 flex-shrink-0" style="width:100px;height:100px;background:#CCFBF1">
-                                    <img src="../images/committee/phong-thai.jpeg" alt="Phong Thai" class="w-full h-full object-cover rounded-full" />
-                                </div>
-                                <p class="font-bold text-sm text-gray-800">Phong Thai</p>
-                                <p class="text-xs font-semibold mt-1" style="color:#0D9488">Associate Professor</p>
-                            </div>
-
-                            <div class="flex-shrink-0 flex flex-col items-center text-center rounded-xl p-6 bg-white shadow" style="border:2px solid #E5E7EB;height:220px">
-                                <div class="rounded-full flex items-center justify-center mb-3 flex-shrink-0" style="width:100px;height:100px;background:#CCFBF1">
+                            <div class="flex-shrink-0 flex flex-col items-center text-center rounded-xl p-5 bg-white shadow" style="border:2px solid #E5E7EB;height:250px">
+                                <div class="rounded-full flex items-center justify-center mb-3 flex-shrink-0 overflow-hidden" style="width:88px;height:88px;background:#CCFBF1">
                                     <img src="../images/committee/trong-tran.jpeg" alt="Trong Tran" class="w-full h-full object-cover rounded-full" />
                                 </div>
-                                <p class="font-bold text-sm text-gray-800">Trong Tran</p>
-                                <p class="text-xs font-semibold mt-1" style="color:#0D9488">Doctor</p>
+                                <p class="font-bold text-sm text-gray-800 leading-tight">Dr Trong Tran</p>
+                                <p class="text-xs font-semibold mt-1" style="color:#0D9488">Theme Leader &amp; Advisory Board</p>
+                                <p class="text-[11px] text-gray-500 mt-1 leading-tight">University of the Sunshine Coast</p>
+                            </div>
+
+                            <!-- Secretariat -->
+                            <div class="flex-shrink-0 flex flex-col items-center text-center rounded-xl p-5 bg-white shadow" style="border:2px solid #E5E7EB;height:250px">
+                                <div class="rounded-full flex items-center justify-center mb-3 flex-shrink-0" style="width:88px;height:88px;background:#CCFBF1">
+                                    <img src="../images/committee/huyen-vuong.jpg" alt="Dr Huyen Vuong" class="w-full h-full object-cover rounded-full" />
+                                </div>
+                                <p class="font-bold text-sm text-gray-800 leading-tight">Dr Huyen Vuong</p>
+                                <p class="text-xs font-semibold mt-1" style="color:#0D9488">Secretariat</p>
+                                <p class="text-[11px] text-gray-500 mt-1 leading-tight">VASEA</p>
+                            </div>
+
+                            <div class="flex-shrink-0 flex flex-col items-center text-center rounded-xl p-5 bg-white shadow" style="border:2px solid #E5E7EB;height:250px">
+                                <div class="rounded-full flex items-center justify-center mb-3 flex-shrink-0" style="width:88px;height:88px;background:#CCFBF1">
+                                    <img src="../images/committee/dung-pham.jpg" alt="Dung Pham Tran" class="w-full h-full object-cover rounded-full" />
+                                </div>
+                                <p class="font-bold text-sm text-gray-800 leading-tight">Mr Dung Pham Tran</p>
+                                <p class="text-xs font-semibold mt-1" style="color:#0D9488">Secretariat</p>
+                                <p class="text-[11px] text-gray-500 mt-1 leading-tight">Griffith University</p>
+                            </div>
+
+                            <div class="flex-shrink-0 flex flex-col items-center text-center rounded-xl p-5 bg-white shadow" style="border:2px solid #E5E7EB;height:250px">
+                                <div class="rounded-full flex items-center justify-center mb-3 flex-shrink-0" style="width:88px;height:88px;background:#CCFBF1">
+                                    <img src="../images/committee/hung-vu.jpeg" alt="Hung Vu" class="w-full h-full object-cover rounded-full" />
+                                </div>
+                                <p class="font-bold text-sm text-gray-800 leading-tight">Mr Hung Viet Vu</p>
+                                <p class="text-xs font-semibold mt-1" style="color:#0D9488">Secretariat</p>
+                                <p class="text-[11px] text-gray-500 mt-1 leading-tight">Griffith University</p>
+                            </div>
+
+                            <div class="flex-shrink-0 flex flex-col items-center text-center rounded-xl p-5 bg-white shadow" style="border:2px solid #E5E7EB;height:250px">
+                                <div class="rounded-full flex items-center justify-center mb-3 flex-shrink-0" style="width:88px;height:88px;background:#CCFBF1">
+                                    <img src="../images/committee/hieu-nguyen.jpeg" alt="Hieu Nguyen" class="w-full h-full object-cover rounded-full" />
+                                </div>
+                                <p class="font-bold text-sm text-gray-800 leading-tight">Mr Hieu Minh Nguyen</p>
+                                <p class="text-xs font-semibold mt-1" style="color:#0D9488">Secretariat</p>
+                                <p class="text-[11px] text-gray-500 mt-1 leading-tight">Griffith University</p>
+                            </div>
+
+                            <div class="flex-shrink-0 flex flex-col items-center text-center rounded-xl p-5 bg-white shadow" style="border:2px solid #E5E7EB;height:250px">
+                                <div class="rounded-full flex items-center justify-center mb-3 flex-shrink-0" style="width:88px;height:88px;background:#CCFBF1">
+                                    <img src="../images/committee/quy-pham.png" alt="Quy Pham" class="w-full h-full object-cover rounded-full" />
+                                </div>
+                                <p class="font-bold text-sm text-gray-800 leading-tight">Mr Quy Pham</p>
+                                <p class="text-xs font-semibold mt-1" style="color:#0D9488">Secretariat</p>
+                                <p class="text-[11px] text-gray-500 mt-1 leading-tight">University of Queensland</p>
+                            </div>
+
+                            <div class="flex-shrink-0 flex flex-col items-center text-center rounded-xl p-5 bg-white shadow" style="border:2px solid #E5E7EB;height:250px">
+                                <div class="rounded-full flex items-center justify-center mb-3 flex-shrink-0" style="width:88px;height:88px;background:#CCFBF1">
+                                    <span class="font-bold text-lg" style="color:#0D9488">HT</span>
+                                </div>
+                                <p class="font-bold text-sm text-gray-800 leading-tight">Ms Huong Xuan Tran</p>
+                                <p class="text-xs font-semibold mt-1" style="color:#0D9488">Secretariat</p>
+                                <p class="text-[11px] text-gray-500 mt-1 leading-tight">Hanoi University of Science and Technology</p>
+                            </div>
+
+                            <div class="flex-shrink-0 flex flex-col items-center text-center rounded-xl p-5 bg-white shadow" style="border:2px solid #E5E7EB;height:250px">
+                                <div class="rounded-full flex items-center justify-center mb-3 flex-shrink-0" style="width:88px;height:88px;background:#CCFBF1">
+                                    <span class="font-bold text-lg" style="color:#0D9488">BN</span>
+                                </div>
+                                <p class="font-bold text-sm text-gray-800 leading-tight">Ms Binh Cam Nguyen</p>
+                                <p class="text-xs font-semibold mt-1" style="color:#0D9488">Secretariat</p>
+                                <p class="text-[11px] text-gray-500 mt-1 leading-tight">Diplomatic Academy of Viet Nam</p>
+                            </div>
+
+                            <!-- Advisory Board -->
+                            <div class="flex-shrink-0 flex flex-col items-center text-center rounded-xl p-5 bg-white shadow" style="border:2px solid #E5E7EB;height:250px">
+                                <div class="rounded-full flex items-center justify-center mb-3 flex-shrink-0" style="width:88px;height:88px;background:#CCFBF1">
+                                    <img src="../images/committee/long-nghiem.jpeg" alt="Prof Long Nghiem" class="w-full h-full object-cover rounded-full" />
+                                </div>
+                                <p class="font-bold text-sm text-gray-800 leading-tight">Prof Long Nghiem</p>
+                                <p class="text-xs font-semibold mt-1" style="color:#0D9488">Advisory Board</p>
+                                <p class="text-[11px] text-gray-500 mt-1 leading-tight">University of Technology Sydney</p>
+                            </div>
+
+                            <div class="flex-shrink-0 flex flex-col items-center text-center rounded-xl p-5 bg-white shadow" style="border:2px solid #E5E7EB;height:250px">
+                                <div class="rounded-full flex items-center justify-center mb-3 flex-shrink-0" style="width:88px;height:88px;background:#CCFBF1">
+                                    <img src="../images/committee/ha-nguyen.jpeg" alt="Ha Nguyen" class="w-full h-full object-cover rounded-full" />
+                                </div>
+                                <p class="font-bold text-sm text-gray-800 leading-tight">Ms Ha Nhue Nguyen</p>
+                                <p class="text-xs font-semibold mt-1" style="color:#0D9488">Advisory Board</p>
+                                <p class="text-[11px] text-gray-500 mt-1 leading-tight">Advanced Partners, VASEA</p>
+                            </div>
+
+                            <div class="flex-shrink-0 flex flex-col items-center text-center rounded-xl p-5 bg-white shadow" style="border:2px solid #E5E7EB;height:250px">
+                                <div class="rounded-full flex items-center justify-center mb-3 flex-shrink-0 overflow-hidden" style="width:88px;height:88px;background:#CCFBF1">
+                                    <img src="../images/committee/hang-thu-ta.jpg" alt="Hang Ta" class="w-full h-full object-cover rounded-full" />
+                                </div>
+                                <p class="font-bold text-sm text-gray-800 leading-tight">Prof Hang Ta</p>
+                                <p class="text-xs font-semibold mt-1" style="color:#0D9488">Advisory Board</p>
+                                <p class="text-[11px] text-gray-500 mt-1 leading-tight">Griffith University</p>
+                            </div>
+
+                            <div class="flex-shrink-0 flex flex-col items-center text-center rounded-xl p-5 bg-white shadow" style="border:2px solid #E5E7EB;height:250px">
+                                <div class="rounded-full flex items-center justify-center mb-3 flex-shrink-0 overflow-hidden" style="width:88px;height:88px;background:#CCFBF1">
+                                    <img src="../images/committee/phong-thai.jpeg" alt="Phong Thai" class="w-full h-full object-cover rounded-full" />
+                                </div>
+                                <p class="font-bold text-sm text-gray-800 leading-tight">A/Prof Phong Thai</p>
+                                <p class="text-xs font-semibold mt-1" style="color:#0D9488">Advisory Board</p>
+                                <p class="text-[11px] text-gray-500 mt-1 leading-tight">University of Queensland</p>
+                            </div>
+
+                            <div class="flex-shrink-0 flex flex-col items-center text-center rounded-xl p-5 bg-white shadow" style="border:2px solid #E5E7EB;height:250px">
+                                <div class="rounded-full flex items-center justify-center mb-3 flex-shrink-0 overflow-hidden" style="width:88px;height:88px;background:#CCFBF1">
+                                    <img src="../images/committee/vinh-dao.jpeg" alt="Vinh Dao" class="w-full h-full object-cover rounded-full" />
+                                </div>
+                                <p class="font-bold text-sm text-gray-800 leading-tight">A/Prof Vinh Dao</p>
+                                <p class="text-xs font-semibold mt-1" style="color:#0D9488">Advisory Board</p>
+                                <p class="text-[11px] text-gray-500 mt-1 leading-tight">University of Queensland</p>
+                            </div>
+
+                            <div class="flex-shrink-0 flex flex-col items-center text-center rounded-xl p-5 bg-white shadow" style="border:2px solid #E5E7EB;height:250px">
+                                <div class="rounded-full flex items-center justify-center mb-3 flex-shrink-0 overflow-hidden" style="width:88px;height:88px;background:#CCFBF1">
+                                    <img src="../images/committee/vincent-hoang.jpg" alt="Vincent Hoang" class="w-full h-full object-cover rounded-full" />
+                                </div>
+                                <p class="font-bold text-sm text-gray-800 leading-tight">A/Prof Vincent Hoang</p>
+                                <p class="text-xs font-semibold mt-1" style="color:#0D9488">Advisory Board</p>
+                                <p class="text-[11px] text-gray-500 mt-1 leading-tight">Queensland University of Technology</p>
+                            </div>
+
+                            <div class="flex-shrink-0 flex flex-col items-center text-center rounded-xl p-5 bg-white shadow" style="border:2px solid #E5E7EB;height:250px">
+                                <div class="rounded-full flex items-center justify-center mb-3 flex-shrink-0" style="width:88px;height:88px;background:#CCFBF1">
+                                    <img src="../images/committee/toan-dinh.jpeg" alt="Toan Dinh" class="w-full h-full object-cover rounded-full" />
+                                </div>
+                                <p class="font-bold text-sm text-gray-800 leading-tight">A/Prof Toan Dinh</p>
+                                <p class="text-xs font-semibold mt-1" style="color:#0D9488">Advisory Board</p>
+                                <p class="text-[11px] text-gray-500 mt-1 leading-tight">University of Southern Queensland</p>
+                            </div>
+
+                            <div class="flex-shrink-0 flex flex-col items-center text-center rounded-xl p-5 bg-white shadow" style="border:2px solid #E5E7EB;height:250px">
+                                <div class="rounded-full flex items-center justify-center mb-3 flex-shrink-0" style="width:88px;height:88px;background:#CCFBF1">
+                                    <img src="../images/committee/mai-nguyen.jpeg" alt="Mai Nguyen" class="w-full h-full object-cover rounded-full" />
+                                </div>
+                                <p class="font-bold text-sm text-gray-800 leading-tight">Dr Mai Nguyen</p>
+                                <p class="text-xs font-semibold mt-1" style="color:#0D9488">Advisory Board</p>
+                                <p class="text-[11px] text-gray-500 mt-1 leading-tight">Griffith University</p>
+                            </div>
+
+                            <div class="flex-shrink-0 flex flex-col items-center text-center rounded-xl p-5 bg-white shadow" style="border:2px solid #E5E7EB;height:250px">
+                                <div class="rounded-full flex items-center justify-center mb-3 flex-shrink-0" style="width:88px;height:88px;background:#CCFBF1">
+                                    <img src="../images/committee/henry-nguyen.jpg" alt="Henry Nguyen" class="w-full h-full object-cover rounded-full" />
+                                </div>
+                                <p class="font-bold text-sm text-gray-800 leading-tight">A/Prof Henry Nguyen</p>
+                                <p class="text-xs font-semibold mt-1" style="color:#0D9488">Advisory Board</p>
+                                <p class="text-[11px] text-gray-500 mt-1 leading-tight">Griffith University</p>
                             </div>
 
                         </div>
@@ -185,7 +310,8 @@
                     var viewport = document.getElementById('cm-viewport');
                     var track = document.getElementById('cm-track');
                     var cards = Array.from(track.children);
-                    var total = cards.length;
+                    var rows = 2;
+                    var totalCols = Math.ceil(cards.length / rows);
                     var current = 0;
                     var gap = 16;
                     var timer;
@@ -194,13 +320,18 @@
                         return window.innerWidth >= 1024 ? 4 : window.innerWidth >= 640 ? 3 : window.innerWidth >= 480 ? 2 : 1;
                     }
 
-                    function setWidths() {
+                    function colWidth() {
                         var visible = getVisible();
-                        var w = (viewport.offsetWidth - gap * (visible - 1)) / visible;
-                        cards.forEach(function (c) { c.style.width = w + 'px'; c.style.marginRight = gap + 'px'; });
+                        return (viewport.offsetWidth - gap * (visible - 1)) / visible;
                     }
 
-                    function maxIndex() { return Math.max(0, total - getVisible()); }
+                    function setWidths() {
+                        track.style.columnGap = gap + 'px';
+                        track.style.rowGap = gap + 'px';
+                        track.style.gridAutoColumns = colWidth() + 'px';
+                    }
+
+                    function maxIndex() { return Math.max(0, totalCols - getVisible()); }
 
                     function buildDots() {
                         var dots = document.getElementById('cm-dots');
@@ -227,8 +358,7 @@
                         if (idx > max) idx = 0;
                         if (idx < 0) idx = max;
                         current = idx;
-                        var w = (viewport.offsetWidth - gap * (getVisible() - 1)) / getVisible();
-                        track.style.transform = 'translateX(-' + (current * (w + gap)) + 'px)';
+                        track.style.transform = 'translateX(-' + (current * (colWidth() + gap)) + 'px)';
                         updateDots();
                     }
 
